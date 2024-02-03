@@ -14,7 +14,7 @@ export default {
       //   secondary2: "#17a2b8",
       // },
       colors: {
-        primary: "rgb(44, 99, 253)",
+        primary: "rgb(30 58 138)",
         secondary: "rgb(55 65 81)",
       },
     },

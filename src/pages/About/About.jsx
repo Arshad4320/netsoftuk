@@ -1,10 +1,11 @@
 import React from "react";
 import Headding from "../../components/Heading/Heading";
 
-// import img from "../../assets/img/property-1.jpg";
-// import img2 from "../../assets/img/electrician.avif";
-// import img3 from "../../assets/img/Handy.jpg";
-// import img4 from "../../assets/img/management.jpg";
+import img from "../../../public/assets/img/about-1.jpg";
+import img2 from "../../../public/assets/img/slider3.jpg";
+import img3 from "../../../public/assets/img/slider.jpg";
+import img4 from "../../../public/assets/img/slider5.jpg";
+
 import Pragraph from "./../../components/Pragraph/Pragraph";
 
 const pragrapContent = [
@@ -16,22 +17,22 @@ const pragrapContent = [
 ];
 
 const imageProperty = [
-  // {
-  //   id: 1,
-  //   image: img,
-  // },
-  // {
-  //   id: 2,
-  //   image: img2,
-  // },
-  // {
-  //   id: 3,
-  //   image: img3,
-  // },
-  // {
-  //   id: 4,
-  //   image: img4,
-  // },
+  {
+    id: 1,
+    image: img,
+  },
+  {
+    id: 2,
+    image: img2,
+  },
+  {
+    id: 3,
+    image: img3,
+  },
+  {
+    id: 4,
+    image: img4,
+  },
 ];
 
 const About = () => {
@@ -45,13 +46,13 @@ const About = () => {
           })}
           <div className="flex md:gap-4 flex-col md:flex-row md:mt-3">
             <a className="w-full" href="http://rentandrooms.com/">
-              <button className="text-white bg-primary hover:bg-blue-400 duration-500 flex w-full py-3  lg:py-4 my-4 font-semibold rounded-md shadow-md items-center justify-center">
-                Rent A Room
+              <button className="text-white bg-primary hover:bg-blue-700 duration-500 flex w-full py-3  lg:py-4 my-4 font-semibold rounded-md shadow-md items-center justify-center">
+                Rent And Rooms
               </button>
             </a>{" "}
             <a className="w-full" href="http://www.rapidhandyworks.com/">
-              <button className="text-white bg-primary hover:bg-blue-400 duration-500 flex w-full py-3  lg:py-4 md:my-4 font-semibold rounded-md shadow-md items-center justify-center">
-                Book A Handyman
+              <button className="text-white bg-primary hover:bg-blue-700 duration-500 flex w-full py-3  lg:py-4 md:my-4 font-semibold rounded-md shadow-md items-center justify-center">
+                Refid Handy Works
               </button>
             </a>
           </div>
@@ -61,14 +62,14 @@ const About = () => {
             return (
               <div key={image.id}>
                 <div className="relative group">
-                  <div className="w-full h-44 md:h-64">
+                  <div className="w-full h-36 md:h-56">
                     <img
                       className="w-full h-full rounded-md"
                       src={image.image}
                       alt=""
                     />
                   </div>
-                  <div className="absolute inset-0 flex  items-end opacity-0 group-hover:opacity-65 group-hover:bg-black rounded-md transition duration-700 ease-in-out" />
+                  <div className="absolute inset-0 flex  items-end opacity-0 group-hover:opacity-65 group-hover:bg-primary rounded-md transition duration-700 ease-in-out" />
                 </div>
               </div>
             );

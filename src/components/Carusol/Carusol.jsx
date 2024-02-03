@@ -3,11 +3,9 @@ import React from "react";
 import img from "../../../public/assets/img/slider.jpg";
 import img2 from "../../../public/assets/img/slider2.jpg";
 import img3 from "../../../public/assets/img/slider3.jpg";
-import img4 from "../../../public/assets/img/post-single-1.jpg";
+import img4 from "../../../public/assets/img/slider3.avif";
 import img5 from "../../../public/assets/img/slider4.jpg";
 import img6 from "../../../public/assets/img/slider5.jpg";
-import img7 from "../../../public/assets/img/slider7.jpg";
-import img8 from "../../../public/assets/img/slider8.jpg";
 
 const image = [
   { id: 1, img: img },
@@ -16,8 +14,6 @@ const image = [
   { id: 4, img: img4 },
   { id: 5, img: img5 },
   { id: 6, img: img6 },
-  { id: 7, img: img7 },
-  { id: 8, img: img8 },
 ];
 
 import { useRef } from "react";
@@ -73,7 +69,7 @@ const Carusol = () => {
                       alt=""
                       className="h-[50vh] md:h-[90vh] w-full"
                     />
-                    <span className="absolute top-0 bg-black left-0 opacity-10 inset-0"></span>
+                    <span className="absolute top-0 bg-primary left-0 opacity-40 inset-0"></span>
                     <div className="absolute left-5 top-[30%] ml-14 w-[65%]"></div>
                   </div>
 

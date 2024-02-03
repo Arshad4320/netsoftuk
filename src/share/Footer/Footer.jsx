@@ -7,30 +7,31 @@ const Footer = () => {
         <div className="">
           <div>
             <p className="hover:text-gray-400 font-medium transition duration-500 text-white text-3xl mb-2">
-              Bornobi
+              NETSOFTUK
             </p>
             <p className="hover:text-gray-400 font-medium transition duration-500 text-white mb-2">
-              Bornobi Properties is an independent Development Agent, that
-              specialises in Development, lettings and Management.
-              <br /> Our local knowledge and connection make us experts within
-              our industry.
+              NETSOFTUK is your one-stop solution for Web, Apps & Digital
+              Marketing. We have innovative products of Food Ordering System to
+              fulfill the market demand, a Local Services Booking system that
+              makes our life easier. We are also involved with E-commerce on our
+              own platforms and well known marketplaces.
             </p>
             <p className="hover:text-gray-400 font-medium transition duration-500 text-white mb-2">
               Phone - 01916918791
             </p>
             <p className="hover:text-gray-400 font-medium transition duration-500 text-white mb-2">
-              Email - info@bornobiproperties.co.uk
+              Email - contact@foodapps.uk || foodapps@gmail.com
             </p>
             <p className="hover:text-gray-400 font-medium transition duration-500 text-white mb-2">
-              Office Address - 138 Hartington Street, Newcastle upon Tyne, NE4
-              6PS
+              Office Address - 2a Baconsfield Street, Newcastle Upon Tyne,
+              NE45JN
             </p>
           </div>
         </div>
 
         <div className="flex justify-center  mt-16">
           <p className="hover:text-gray-400 font-medium transition duration-500 text-white">
-            © Copyright Bornobi All Rights Reserved.
+            © Copyright NETSOFTUK. All Rights Reserved .
           </p>
         </div>
       </div>

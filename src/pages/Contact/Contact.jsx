@@ -9,7 +9,7 @@ const contactDetails = [
   {
     id: 1,
     title: " Address",
-    description: "2a Baconsfield Street,Newcastle Upon Tyne, NE45JN",
+    description: "2a Baconsfield Street, Newcastle Upon Tyne, NE45JN",
     icon: <IoLocationOutline />,
   },
   {
@@ -21,7 +21,7 @@ const contactDetails = [
   {
     id: 3,
     title: " Email Us",
-    description: "info@bornobiproperties.co.uk",
+    description: "contact@foodapps.uk  foodapps@gmail.com",
     icon: <MdOutlineMarkEmailRead />,
   },
   {

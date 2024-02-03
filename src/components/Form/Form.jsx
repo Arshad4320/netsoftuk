@@ -39,7 +39,7 @@ const Form = () => {
           />
         </div>
 
-        <button className="text-white bg-primary hover:bg-blue-400 duration-500 flex w-full py-3 lg:py-4 my-6 font-semibold rounded-md shadow-md items-center justify-center">
+        <button className="text-white bg-primary hover:bg-blue-700 duration-500 flex w-full py-3 lg:py-4 my-6 font-semibold rounded-md shadow-md items-center justify-center">
           Send Message
         </button>
       </form>

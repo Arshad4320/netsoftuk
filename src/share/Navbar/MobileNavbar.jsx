@@ -2,7 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { FaOutdent } from "react-icons/fa";
 import { HiMiniXMark } from "react-icons/hi2";
-
+import img from "../../../public/assets/img/logo.jpg";
 const MobileNavber = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -28,7 +28,7 @@ const MobileNavber = () => {
         to="/service"
         className="block  px-2 py-2 font-semibold text-primary hover:text-secondary  "
       >
-        Service
+        Services
       </Link>
       <Link
         to="/contact"
@@ -45,12 +45,9 @@ const MobileNavber = () => {
         <div className="flex gap-2">
           <Link className="flex items-center justify-center " to="/">
             {" "}
-            <div className=" font-semibold w-[80px] h-[80px]  ">
-              {/* <img className="w-ful h-full" src={logo} alt="" /> */}
+            <div className="w-44 h-20 p-2 ">
+              <img className="w-ful h-full" src={img} alt="" />
             </div>
-            <p className="text-2xl font-semibold text-primary">
-              Bornobi Properties
-            </p>
           </Link>
         </div>
         <button
