@@ -1,11 +1,11 @@
 import React from "react";
 
-import img from "../../../public/assets/img/slider.jpg";
-import img2 from "../../../public/assets/img/slider2.jpg";
-import img3 from "../../../public/assets/img/slider3.jpg";
-import img4 from "../../../public/assets/img/slider3.avif";
-import img5 from "../../../public/assets/img/slider4.jpg";
-import img6 from "../../../public/assets/img/slider5.jpg";
+import img from "../../../public/assets/img/slider.avif";
+import img2 from "../../../public/assets/img/slider2.avif";
+import img3 from "../../../public/assets/img/slider3.avif";
+import img4 from "../../../public/assets/img/slider4.jpg";
+import img5 from "../../../public/assets/img/slider5.avif";
+import img6 from "../../../public/assets/img/img6.avif";
 
 const image = [
   { id: 1, img: img },
