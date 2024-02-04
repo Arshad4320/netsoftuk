@@ -80,17 +80,18 @@ const Service = () => {
               solutions, driving growth through targeted campaigns, SEO
               expertise, and innovative online presence.
             </p>
-          </div>
-          <div>
-            {digitalMarketing.map((data) => {
-              return (
-                <div key={data.id} className="flex items-center gap-2 mt-2">
-                  {" "}
-                  <FaCheck className="font-semibold " />{" "}
-                  <span className="font-semibold text-lg">{data.title}</span>
-                </div>
-              );
-            })}
+
+            <div>
+              {digitalMarketing.map((data) => {
+                return (
+                  <div key={data.id} className="flex items-center gap-2 mt-2">
+                    {" "}
+                    <FaCheck className="font-semibold " />{" "}
+                    <span className="font-semibold text-lg">{data.title}</span>
+                  </div>
+                );
+              })}
+            </div>
           </div>
         </div>
         <div className="rounded-md shadow-md border-y-2 hover:shadow-lg border-b-purple-950 hover:bg-purple-950 duration-500 hover:text-white ">
